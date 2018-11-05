@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:DialogBoxExample2"
+             x:Class="DialogBoxExample2.MainPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Button x:Name="btnMain" Text="Click Me"  HorizontalOptions="CenterAndExpand" VerticalOptions="Start" />
+            <Label x:Name="lblResultado" Text="" HorizontalOptions="CenterAndExpand" VerticalOptions="Center"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

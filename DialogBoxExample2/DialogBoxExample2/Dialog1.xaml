@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DialogBoxExample2.Dialog1"  HeightRequest="220" WidthRequest="280" BackgroundColor="Aqua">
+    <ContentPage.Content>
+        <StackLayout  HeightRequest="200" WidthRequest="250" HorizontalOptions="CenterAndExpand" VerticalOptions="Center" >
+            <Button x:Name="btnOpcion1" Text="Opción 1"
+                VerticalOptions="Center" 
+                HorizontalOptions="FillAndExpand" />
+            <Button x:Name="btnOpcion2" Text="Opción 2"
+                VerticalOptions="Center" 
+                HorizontalOptions="FillAndExpand" />
+            <Button x:Name="btnOpcion3" Text="Opción 3"
+                VerticalOptions="Center" 
+                HorizontalOptions="FillAndExpand" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
